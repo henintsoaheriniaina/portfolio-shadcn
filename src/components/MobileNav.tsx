@@ -24,13 +24,13 @@ const MobileNav = () => {
             <a href="#" className="mobile-link">
               Home
             </a>
-            <a href="#" className="mobile-link">
-              About
+            <a href="#skills" className="mobile-link">
+              Skills
             </a>
-            <a href="#" className="mobile-link">
-              Services
+            <a href="#projects" className="mobile-link">
+              Projects
             </a>
-            <a href="#" className="mobile-link">
+            <a href="#contact" className="mobile-link">
               Contact
             </a>
           </div>
