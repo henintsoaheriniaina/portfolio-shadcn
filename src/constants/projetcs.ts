@@ -32,7 +32,7 @@ const projects: Project[] = [
     description:
       "A social network for my university, allowing students to connect, share, and collaborate easily.",
     image:
-      "https://res.cloudinary.com/dcwqtktxm/image/upload/v1741155000/magisphere_placeholder.png",
+      "https://res.cloudinary.com/dcwqtktxm/image/upload/v1741159313/umagis_hvbbwt.png",
     githubLink: "https://github.com/henintsoaheriniaina/Magisphere",
     techs: ["Laravel", "TailwindCSS", "Alpine.js", "Pusher", "MySQL"],
   },

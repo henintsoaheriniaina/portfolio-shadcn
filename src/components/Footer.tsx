@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { ArrowUp, Github, Mail, Twitter } from "lucide-react";
+import { ArrowUp, Github, Mail, PhoneIcon } from "lucide-react";
+import FooterForm from "./FooterForm";
 
 export default function Footer() {
   const handleScrollToTop = () => {
@@ -14,8 +14,10 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">About Me</h3>
             <p className="text-sm text-muted-foreground">
-              Passionate developer creating innovative solutions. Always
-              learning, always coding.
+              I’m passionate about building great web and mobile experiences.
+              Every project is a new opportunity to learn, grow, and create
+              something useful. If you want to connect, collaborate, or just
+              chat about tech, feel free to reach out!
             </p>
           </div>
           <div className="space-y-3">
@@ -31,7 +33,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#projects"
                   className="text-sm text-muted-foreground hover:text-foreground"
                 >
                   Projects
@@ -39,7 +41,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#skills"
                   className="text-sm text-muted-foreground hover:text-foreground"
                 >
                   Skills
@@ -47,7 +49,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-sm text-muted-foreground hover:text-foreground"
                 >
                   Contact
@@ -59,44 +61,35 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Connect</h3>
             <div className="flex space-x-3">
               <a
-                href="https://github.com"
+                href="https://github.com/henintsoaheriniaina"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="ghost" size="icon">
-                  <Github className="h-4 w-4" />
-                  <span className="sr-only">GitHub</span>
+                <Button variant="ghost" size="icon" aria-label="GitHub">
+                  <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="ghost" size="icon">
-                  <Twitter className="h-4 w-4" />
-                  <span className="sr-only">Twitter</span>
+              <a href="mailto:rasolomampiononahenintsoaherin@gmail.com">
+                <Button variant="ghost" size="icon" aria-label="Email">
+                  <Mail className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:hello@example.com">
-                <Button variant="ghost" size="icon">
-                  <Mail className="h-4 w-4" />
-                  <span className="sr-only">Email</span>
+              <a href="tel:+261346091834">
+                <Button variant="ghost" size="icon" aria-label="Appel">
+                  <PhoneIcon className="h-5 w-5" />
                 </Button>
               </a>
             </div>
           </div>
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">Stay Updated</h3>
-            <form className="flex flec space-x-2">
-              <Input type="email" placeholder="Enter your email" />
-              <Button type="submit">Subscribe</Button>
-            </form>
+            <FooterForm />
           </div>
         </div>
         <div className="mt-10 flex flex-col-reverse sm:flex-row justify-between items-center">
           <p className="text-xs text-muted-foreground mt-4 sm:mt-0">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Rasolomampionona Henintsoa Heriniaina.
+            All rights reserved.
           </p>
           <Button variant="outline" size="icon" onClick={handleScrollToTop}>
             <ArrowUp className="h-4 w-4" />

@@ -18,7 +18,7 @@ const MobileNav = () => {
         <div className="p-4">
           <a href="#" className="flex items-center gap-2 ">
             <Zap />
-            <p className="text-xl font-semibold">Henintsoa Heriniaina</p>
+            <p className="text-2xl font-bold">Henintsoa Heriniaina</p>
           </a>
           <div className="grid gap-2 mt-6">
             <a href="#" className="mobile-link">

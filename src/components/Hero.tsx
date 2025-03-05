@@ -19,8 +19,8 @@ export default function Hero() {
               <span className="text-primary"> Henintsoa Heriniaina. </span>
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              CS student at U-Magis Saint Michel, building web & mobile apps
-              with Laravel, React & React Native. Currently exploring Next.js
+              Computer Sience student at U-Magis Saint Michel, building apps
+              with Express.js, Laravel, React & React Native.
             </p>
           </div>
           <div className="flex flex-col justify-center lg:justify-start gap-2 min-[400px]:flex-row ">
@@ -56,7 +56,7 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-background shadow-xl">
             <img
-              src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://cdn.prod.website-files.com/62d84e447b4f9e7263d31e94/6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg"
               alt="Alex Johnson"
               className="object-cover w-full h-full"
             />

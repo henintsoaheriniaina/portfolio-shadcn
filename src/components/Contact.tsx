@@ -7,9 +7,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Mail, PhoneIcon } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
@@ -22,11 +21,12 @@ export default function Contact() {
           Let's Connect
         </Badge>
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl ">
-          Get In Touch
+          Contact me
         </h2>
         <p className="mt-4 max-w-[700px] text-muted-foreground md:text-xl">
-          Have a project in mind or just want to chat? I'm always open to new
-          opportunities and collaborations.
+          Feel free to reach out if you have any questions or just want to
+          connect! I'm always open to discussing new opportunities, ideas, or
+          any feedback you may have.
         </p>
       </div>
 
@@ -38,70 +38,28 @@ export default function Contact() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <form className="space-y-4">
-            <div className="space-y-2">
-              <Input id="name" placeholder="Your Name" />
-            </div>
-            <div className="space-y-2">
-              <Input id="email" placeholder="Your Email" type="email" />
-            </div>
-            <div className="space-y-2">
-              <Textarea
-                id="message"
-                placeholder="Your Message"
-                className="min-h-[100px]"
-              />
-            </div>
-            <Button type="submit" className="w-full">
-              Send Message
-            </Button>
-          </form>
+          <ContactForm />
         </CardContent>
       </Card>
 
       <div className="mt-12 flex justify-center space-x-4">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-          <Button
-            variant="outline"
-            size="icon"
-            className="bg-background/80 backdrop-blur-sm"
-          >
-            <Github className="h-5 w-5" />
-            <span className="sr-only">GitHub</span>
-          </Button>
-        </a>
         <a
-          href="https://linkedin.com"
+          href="https://github.com/henintsoaheriniaina"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button
-            variant="outline"
-            size="icon"
-            className="bg-background/80 backdrop-blur-sm"
-          >
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn</span>
+          <Button variant="ghost" size="icon" aria-label="GitHub">
+            <Github className="h-5 w-5" />
           </Button>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <Button
-            variant="outline"
-            size="icon"
-            className="bg-background/80 backdrop-blur-sm"
-          >
-            <Twitter className="h-5 w-5" />
-            <span className="sr-only">Twitter</span>
-          </Button>
-        </a>
-        <a href="mailto:hello@example.com">
-          <Button
-            variant="outline"
-            size="icon"
-            className="bg-background/80 backdrop-blur-sm"
-          >
+        <a href="mailto:rasolomampiononahenintsoaherin@gmail.com">
+          <Button variant="ghost" size="icon" aria-label="Email">
             <Mail className="h-5 w-5" />
-            <span className="sr-only">Email</span>
+          </Button>
+        </a>
+        <a href="tel:+261346091834">
+          <Button variant="ghost" size="icon" aria-label="Appel">
+            <PhoneIcon className="h-5 w-5" />
           </Button>
         </a>
       </div>

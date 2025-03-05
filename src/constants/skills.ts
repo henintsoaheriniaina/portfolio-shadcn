@@ -20,6 +20,11 @@ export type Skill = {
 
 const skills: Skill[] = [
   {
+    name: "Express.js",
+    icon: SiExpress,
+    link: "https://expressjs.com/",
+  },
+  {
     name: "Laravel",
     icon: SiLaravel,
     link: "https://laravel.com/",
@@ -59,11 +64,7 @@ const skills: Skill[] = [
     icon: SiZod,
     link: "https://zod.dev/",
   },
-  {
-    name: "Express.js",
-    icon: SiExpress,
-    link: "https://expressjs.com/",
-  },
+
   {
     name: "Git & GitHub",
     icon: SiGithub,
