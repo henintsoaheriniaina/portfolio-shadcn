@@ -19,7 +19,7 @@ export default function Hero() {
               <span className="text-primary"> Henintsoa Heriniaina. </span>
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              Computer Sience student at U-Magis Saint Michel, building apps
+              Computer Science student at U-Magis Saint Michel, building apps
               with Express.js, Laravel, React & React Native.
             </p>
           </div>
