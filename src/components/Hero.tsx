@@ -1,7 +1,7 @@
+import profile from "@/assets/profile.jpg";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Github, Mail, PhoneIcon } from "lucide-react";
-
 export default function Hero() {
   return (
     <section
@@ -56,8 +56,8 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-background shadow-xl">
             <img
-              src="https://cdn.prod.website-files.com/62d84e447b4f9e7263d31e94/6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg"
-              alt="Alex Johnson"
+              src={profile}
+              alt="Henintsoa Heriniaina"
               className="object-cover w-full h-full"
             />
           </div>
