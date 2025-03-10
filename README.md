@@ -10,15 +10,12 @@ Ce projet est un **portfolio one-page** développé en **React avec ShadCN UI et
 - **Projets** : Présentation de quelques projets avec liens GitHub
 - **Contact** : Formulaire et email direct
 - **Footer** : Informations légales
-- **Navbar dynamique** : Mise en surbrillance automatique de la section active avec `IntersectionObserver`
 
 ## 🛠️ Technologies utilisées
 
 - **React** : Librairie JavaScript pour l'interface
 - **ShadCN UI** : Composants UI modernes et élégants
 - **TailwindCSS** : Stylisation rapide et efficace
-- **IntersectionObserver** : Détection automatique de la section active
-
 ## 🚀 Installation et utilisation
 
 ```sh
@@ -32,7 +29,7 @@ Ensuite, ouvrez [http://localhost:3000](http://localhost:3000) pour voir le port
 
 ## 📩 Contact
 
-- **Email** : rasolomampiononahenintsoaheriniaina@gmail.com
+- **Email** : rasolomampiononahenintsoaherin@gmail.com
 - **GitHub** : [Mon profil](https://github.com/henintsoaheriniaina)
 
 ---
