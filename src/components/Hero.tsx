@@ -1,4 +1,4 @@
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/ghibli-profile.png";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Github, Mail, PhoneIcon } from "lucide-react";
