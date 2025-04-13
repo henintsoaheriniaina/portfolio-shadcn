@@ -1,6 +1,6 @@
-import profile from "@/assets/ghibli-profile.png";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { profileImg } from "@/constants/utils";
 import { Github, Mail, PhoneIcon } from "lucide-react";
 export default function Hero() {
   return (
@@ -56,7 +56,7 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-background shadow-xl">
             <img
-              src={profile}
+              src={profileImg}
               alt="Henintsoa Heriniaina"
               className="object-cover w-full h-full"
             />
