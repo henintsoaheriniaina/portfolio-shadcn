@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiTailwindcss,
   SiTypescript,
+  SiVuedotjs,
   SiZod,
 } from "react-icons/si";
 
@@ -25,6 +26,11 @@ const skills: Skill[] = [
     link: "https://expressjs.com/",
   },
   {
+    name: "Vue.js",
+    icon: SiVuedotjs,
+    link: "https://vuejs.org/",
+  },
+  {
     name: "Laravel",
     icon: SiLaravel,
     link: "https://laravel.com/",
@@ -35,7 +41,7 @@ const skills: Skill[] = [
     link: "https://www.typescriptlang.org/",
   },
   {
-    name: "React",
+    name: "React / React Native",
     icon: SiReact,
     link: "https://react.dev/",
   },
